@@ -1,7 +1,7 @@
 # Sky QA Assignment
 
 ## What this does
- This project will run Cucumber test that will test the Articles
+ This project will run Cucumber test (RestAssured Java) that will test the Articles
  
 ## Running the Tests
 
@@ -11,7 +11,7 @@ Run the TestRunnner java class which has been created in this below path,
 ## Failing Test Scenarios
 As per the requirement provided, 
 the expected statuscode for below test scripts was 404 
-but the actual statuscode returned was 400. So the below test would fail while running this suite
+but the actual statuscode returned was 400. So the below tests would fail while running this suite
 
 Perform a POST action using valid endpoint
 (path - /tech-test/articles/2 )

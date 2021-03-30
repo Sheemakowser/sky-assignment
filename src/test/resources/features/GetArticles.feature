@@ -9,7 +9,7 @@ Feature: Get Articles
     And the response format is JSON
     And the response contains the list of articles
 
-  Scenario Outline: : Get the article <id> using valid endpoint
+  Scenario Outline: Get the article <id> using valid endpoint
     When I attempt to get an article with id <id>
     Then the received response status code is 200
     And the response format is JSON
